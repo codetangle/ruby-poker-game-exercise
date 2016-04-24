@@ -1,0 +1,35 @@
+A texas holdem game is played at a with up to 10 players, playing a series of individual poker hands.
+Betting limits are established prior to the start of the hand.
+Each hand begins with the player to the left of the dealer button placing a small blind bet.
+The next player places a large blind bet. Each player then recives two cards.
+Each hand is made up of 4 betting rounds, or streets. Pre-flop, flop, turn, and river.
+Each player after the big blind has the option to call the blind bet, raise, or fold, in order around the table.
+Once everyone has placed the same amount of money in the pot or folded the money moves into the pot and the hand moves to the next street.
+New cards are dealt at the begining of each street.
+Once each street has been played the remaining players showdown their hands.
+The winner is declared based on hand value and is awarded the pot.
+The dealer button is moved to the next available player seat and another hand is dealt.
+The game continues until there is less than 2 active players at the table
+
+Game
+players
+hand
+bet
+player
+button
+blind bet
+small blind
+large blind
+ante
+deal
+hole cards
+pre flop
+flop
+turn river
+call
+raise
+fold
+check
+pot
+cards
+showdown
