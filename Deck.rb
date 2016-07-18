@@ -1,42 +1,4 @@
-class Card
-
-	def initialize(value, suit)
-		if value === 14
-			@name = 'A'
-		elsif value === 13
-			@name = 'K'
-		elsif value === 12
-			@name = 'Q'
-		elsif value === 11
-			@name = 'J'
-		elsif value === 10
-			@name = 'T'
-		elsif value === 9
-			@name = '9'
-		elsif value === 8
-			@name = '8'
-		elsif value === 7
-			@name = '7'
-		elsif value === 6
-			@name = '6'
-		elsif value === 5
-			@name = '5'
-		elsif value === 4
-			@name = '4'
-		elsif value === 3
-			@name = '3'
-		elsif value === 2
-			@name = '2'
-		end
-
-		@suit = suit
-	end
-
-	def display()
-		return @name + @suit
-	end
-end
-
+require './Card.rb'
 
 class Deck
 
@@ -83,15 +45,15 @@ class Deck
 
 		return cards
 	end
-end
 
-def show_cards(card_array)
+	def show_cards(card_array)
 
-	hand = ""
-	card_array.each do |card|
-		hand += card.display() + " "
+		hand = ""
+		card_array.each do |card|
+			hand += card.display() + " "
+		end
+		puts hand
 	end
-	puts hand
 end
 
 # aDeck = Deck.new()

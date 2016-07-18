@@ -27,6 +27,7 @@ class Card
 			@name = 'Three'
 		elsif value === 2
 			@name = 'Two'
+		end
 
 		@suit = suit
 	end
