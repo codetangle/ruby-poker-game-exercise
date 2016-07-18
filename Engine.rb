@@ -3,7 +3,7 @@ require './Table.rb'
 class Engine
 	#Initializes the table
 	def initialize
-		@table = Table.new(0)
+		@table = Table.new(10)
     @table_live = true
 	end
 
